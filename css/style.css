@@ -94,10 +94,38 @@ body{
   border-radius: 5px;
 }
 
-.nav-right .green-button{
+.nav-right .green-button,
+.page-title a{
   background-color: #7BBC00;
   border: none;
 }
 
 
 /* Header-bottom */
+.header-bottom{
+  position: relative;
+  width: 85%;
+  margin: 0 auto;
+  height: 420px;
+}
+.page-title{
+  position: absolute;
+  top:30%;
+  right: 50%;
+}
+
+.page-title h1{
+  font-size: 43px;
+  color: white;
+  line-height: 60px;
+  margin-bottom: 30px;
+
+}
+.page-title a{
+  padding: 10px 20px ;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+
+}
