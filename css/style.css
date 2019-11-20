@@ -35,9 +35,6 @@ body{
   clear: both;
 }
 
-.header-top ul{
-}
-
 .header-top li {
   display: inline;
   padding-right: 10px;
@@ -86,7 +83,6 @@ body{
   color: rgba(255,255,255,.5);
 }
 
-
 .nav-right .login,
 .nav-right .green-button{
   border: 1px solid lightblue;
@@ -100,7 +96,6 @@ body{
   border: none;
 }
 
-
 /* Header-bottom */
 .header-bottom{
   position: relative;
@@ -108,6 +103,7 @@ body{
   margin: 0 auto;
   height: 420px;
 }
+
 .page-title{
   position: absolute;
   top:30%;
@@ -119,13 +115,12 @@ body{
   color: white;
   line-height: 60px;
   margin-bottom: 30px;
-
 }
+
 .page-title a{
   padding: 10px 20px ;
   border-radius: 5px;
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-
 }
