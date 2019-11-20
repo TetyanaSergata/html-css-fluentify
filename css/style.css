@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+.page-header{
+  height:500px;
+  margin: 0;
+  width: 100%;
+  background-color: #0D325A;
+  background-image: url(../img/oldman.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: 130% 130%;
+}
+
+/* header-top */
+.header-top{
+  width: 85%;
+  margin: 0 auto;
+  height: 80px;
+  line-height: 80px;
+  /* border: 1px solid black; */
+}
+
+.header-top::after{
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.header-top ul{
+}
+
+.header-top li {
+  display: inline;
+  padding-right: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-shadow: 1px 1px 1px grey;
+}
+
+.header-top li .logo{
+  font-family: 'Shrikhand', cursive;
+  padding-right: 16px;
+  text-decoration: none;
+  color: white;
+  /* text-transform: uppercase; */
+  text-shadow: 1px 1px 1px black;
+  font-size: 20px;
+}
+
+/* navigator */
+.nav-left{
+  float: left;
+  width: 60%;
+  /* border-right: 1px solid red;*/
+}
+
+.nav-right{
+  float: right;
+  width: 35%;
+}
+
+.nav-right li{
+  padding-right: 10px;
+  /* padding-left: 5px; */
+}
+
+.nav-right li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-shadow: 1px 1px 1px grey;
+}
+
+.nav-right li:first-child a{
+  color: rgba(255,255,255,.5);
+}
+
+
+.nav-right .login,
+.nav-right .green-button{
+  border: 1px solid lightblue;
+  padding: 7px 18px ;
+  border-radius: 5px;
+}
+
+.nav-right .green-button{
+  background-color: #7BBC00;
+  border: none;
+}
+
+
+/* Header-bottom */
